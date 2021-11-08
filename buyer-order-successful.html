@@ -6,29 +6,17 @@
     <title>Buy order successful mail</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-    </style>
-    <script defer>
-      window.onload = function () {
-        const yearBox = document.getElementById("year");
-        const currentYear = new Date().getFullYear();
-        yearBox.textContent = currentYear;
-        
-      };
-    </script>
   </head>
 
-  <body style="font-family: Inter, sans-serif">
-    <section>
+  <body
+    style="
+      font-family: Inter, sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    "
+  >
+    <div style="padding: 0; margin: 0">
       <div
         style="
           background-color: #ffffff;
@@ -45,238 +33,259 @@
           alt="logo"
         />
       </div>
-      <section style="height: 100%; width: 100%; position: relative">
+    </div>
+    <div style="height: 100%; width: 100%; position: relative">
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 2rem;
+          top: 80px;
+        "
+      >
+        <img
+          style="width: 200px; height: 200px; margin-bottom: 2rem"
+          src="./verified.png"
+          alt="verified"
+        />
+      </div>
+      <div
+        style="
+          background-image: url('./bgImg.png');
+          background-repeat: repeat;
+          background-position: 50% 50%;
+          /* border: 1px solid red; */
+          position: relative;
+          top: -180px;
+          padding: 5rem 0.2rem 2rem 0.2rem;
+        "
+      >
+        <div style="max-width: 900px; margin: 0 auto; padding: 1rem 2rem">
+          <h1
+            style="
+              text-transform: capitalize;
+              font-weight: bold;
+              color: #595959;
+              max-width: 676px;
+              margin: 0 auto;
+              margin-top: 2rem;
+              margin-bottom: 0.5rem;
+              font-weight: 800;
+              font-size: 28px;
+              line-height: 40px;
+            "
+          >
+            Thank you for your purchase!
+          </h1>
+          <div style="max-width: 676px; margin: 0 auto">
+            <p
+              style="
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 1rem;
+              "
+            >
+              Hi GraceMoments, it’s Olumide Gerald here. Thank you so much for
+              purchasing
+              <span style="color: #0072ef">FUNDAMENTALS OF UI/UX DESIGN </span>
+              with the reference no:
+              <span style="color: #00b140">F445546664666464 </span>
+            </p>
+
+            <h2
+              style="
+                color: #00b140;
+                text-align: center;
+                width: 100%;
+                font-weight: 800;
+                font-size: 40px;
+                margin: 3rem auto;
+              "
+            >
+              N45,6000
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="width: 100%; margin-top: 0.3rem; position: relative; top: -220px"
+    >
+      <div>
+        <table
+          style="
+            width: 100%;
+            max-width: 900px;
+            margin: 1.5rem auto;
+            padding: 0.2rem 0.2rem 0.2rem 2rem;
+          "
+        >
+          <thead
+            style="
+              color: #8c8c8c;
+              text-transform: capitalize;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              margin-bottom: 0.2rem;
+            "
+          >
+            <tr style="padding: 0.2rem 0.5rem">
+              <th>payment date</th>
+              <th>order ID</th>
+              <th>payment method</th>
+            </tr>
+          </thead>
+          <tbody
+            style="
+              text-align: center;
+              color: #595959;
+              font-size: 16px;
+              line-height: 30px;
+              font-weight: 700;
+            "
+          >
+            <tr>
+              <td>12/08/22</td>
+              <td>KRT10864</td>
+              <td>Mastercard -0234</td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          style="
+            box-shadow: 0px 20px 200px rgba(34, 34, 34, 0.1);
+            border-radius: 8px;
+            padding: 20px 12px;
+            background: #ffffff;
+            width: 100%;
+            margin-top: 1rem;
+            overflow: auto;
+            margin: 0 auto;
+            max-width: 800px;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 1rem 1rem;
+              border-bottom: 1px solid #f0f0f0;
+            "
+          >
+            <p
+              style="
+                display: inline-block;
+                color: #8c8c8c;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                margin-right: 0.6rem;
+              "
+            >
+              Product Name
+            </p>
+            <p
+              style="
+                display: inline-block;
+                color: #595959;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+                text-align: center;
+              "
+            >
+              Principles of Design
+            </p>
+          </div>
+          <div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 1rem;
+                border-bottom: 1px solid #f0f0f0;
+              "
+            >
+              <p
+                style="
+                  display: inline-block;
+                  color: #8c8c8c;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 26px;
+                  margin-right: 0.6rem;
+                "
+              >
+                Customer Name
+              </p>
+
+              <p
+                style="
+                  display: inline-block;
+                  color: #595959;
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 28px;
+                  text-align: center;
+                "
+              >
+                Olumide John
+              </p>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.5rem 1rem;
+                /* border-bottom: 1px solid #f0f0f0; */
+              "
+            >
+              <p
+                style="
+                  display: inline-block;
+                  color: #8c8c8c;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 26px;
+                  margin-right: 0.6rem;
+                "
+              >
+                Email Address
+              </p>
+
+              <p
+                style="
+                  display: inline-block;
+                  color: #595959;
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 28px;
+                  text-align: center;
+                "
+              >
+                olumidejohn@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div
           style="
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 2rem;
-            top: 80px;
+            width: 100%;
+            margin-bottom: 10rem;
+            /* margin-top: 6rem; */
           "
         >
-          <img
-            style="width: 200px; height: 200px; margin-bottom: 2rem"
-            src="./verified.png"
-            alt="verified"
-          />
-        </div>
-        <div
-          style="
-            background-image: url('./bgImg.png');
-            background-repeat: repeat;
-            background-position: 50% 50%;
-            /* border: 1px solid red; */
-            position: relative;
-            top: -180px;
-            padding: 5rem 0.2rem 2rem 0.2rem;
-          "
-        >
-          <div style="max-width: 900px; margin: 0 auto;">
-            <h1
-              style="
-                text-transform: capitalize;
-                font-weight: bold;
-                color: #595959;
-                max-width: 676px; margin: 0 auto;
-                margin-top: 2rem;
-                margin-bottom: 0.5rem;
-                font-weight: 800;
-                font-size: 28px;
-                line-height: 40px;
-              "
-            >
-              Thank you for your purchase!
-            </h1>
-            <div style="max-width: 676px; margin: 0 auto;">
-              <p
-                style="
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 26px;
-                  margin-bottom: 1rem;
-                "
-              >
-                Hi GraceMoments, it’s Olumide Gerald here. Thank you so much for
-                purchasing
-                <span style="color: #0072ef"
-                  >FUNDAMENTALS OF UI/UX DESIGN
-                </span>
-                with the reference no: <span style="color: #00b140;">F445546664666464
-              </p></span>
-
-              <h2
-                style="
-                  color: #00b140;
-                  text-align: center;
-                  width: 100%;
-                  font-weight: 800;
-                  font-size: 40px;
-                  margin: 3rem auto;
-                "
-              >
-                N45,6000
-              </h2>
-              <section style="width: 100%; margin-top: 0.3rem; overflow:auto; padding: 1rem; ">
-                <div style="overflow-x:auto; padding: .5rem;">
-                <table
-                  style="
-                    width: 100%;
-                    max-width: 900px;
-                    margin: 1.5rem auto;
-                    padding: 0.2rem .2rem .2rem 2rem;
-                    
-                  "
-                >
-                  <thead
-                    style="
-                      color: #8c8c8c;
-                      text-transform: capitalize;
-                      font-weight: 500;
-                      font-size: 16px;
-                      line-height: 24px;
-                      margin-bottom: 0.2rem;
-                      
-                    "
-                  >
-                    <tr style="padding:.2rem .5rem;">
-                      <th>payment date</th>
-                    <th>order ID</th>
-                    <th>payment method</th>
-                    </tr>
-                  </thead>
-                  <tbody
-                    style="
-                      text-align: center;
-                      color: #595959;
-                      font-size: 20px;
-                      line-height: 30px;
-                      font-weight: 700;
-                    "
-                  >
-                    <tr>
-                      <td>12/08/22</td>
-                      <td>KRT10864</td>
-                      <td>Mastercard -0234</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div
-                  style="
-                    box-shadow: 0px 20px 200px rgba(34, 34, 34, 0.1);
-                    border-radius: 8px;
-                    padding: 20px 12px;
-                    background: #ffffff;
-                    width: 100%;
-                    margin-top: 1rem;
-                    overflow:auto;
-                  "
-                >
-                  <p
-                    style="
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: center;
-                      padding: 1rem 0.5rem;
-                      border-bottom: 1px solid #f0f0f0;
-                    "
-                  >
-                    <span
-                      style="
-                        display: inline-block;
-                        color: #8c8c8c;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-right:.6rem;
-                      "
-                      >Product Name</span
-                    ><span
-                      style="
-                        display: inline-block;
-                        color: #595959;
-                        font-weight: 700;
-                        font-size: 18px;
-                        line-height: 28px;
-                        text-align:center;
-                      "
-                      >Principles of Design</span
-                    >
-                  </p>
-                  <p
-                    style="
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: center;
-                      padding: 1rem 0.5rem;
-                      border-bottom: 1px solid #f0f0f0;
-                    "
-                  >
-                    <span
-                      style="
-                        display: inline-block;
-                        color: #8c8c8c;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-right:.6rem;
-                      "
-                      >Customer Name</span
-                    ><span
-                      style="
-                        display: inline-block;
-                        color: #595959;
-                        font-weight: 700;
-                        font-size: 18px;
-                        line-height: 28px;
-                        text-align:center;
-                      "
-                      >Olumide John</span
-                    >
-                  </p>
-                  <p
-                    style="
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: center;
-                      padding: 1rem 0.5rem;
-                      /* border-bottom: 1px solid #f0f0f0; */
-                    "
-                  >
-                    <span
-                      style="
-                        display: inline-block;
-                        color: #8c8c8c;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-right:.6rem;
-                      "
-                      >Email Address</span
-                    ><span
-                      style="
-                        display: inline-block;
-                        color: #595959;
-                        font-weight: 700;
-                        font-size: 18px;
-                        line-height: 28px;
-                        text-align:center;
-                      "
-                      >olumidejohn@gmail.com</span
-                    >
-                  </p>
-                </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-          <div style="display:flex;
-                    justify-content:center;
-                    align-items:center;
-                    width: 100%;
-          ">
-               <a
+          <a
             style="
               background-color: #0072ef;
               text-transform: capitalize;
@@ -287,18 +296,23 @@
               border: none;
               cursor: pointer;
               font-weight: 700;
-              margin: -16rem auto;
+              /* margin: -16rem auto; */
               text-decoration: none;
-              margin-bottom: 4rem;
+              margin-top: 10rem;
               display: flex;
               justify-content: space-between;
-              align-items:center;
+              align-items: center;
             "
             href="#"
           >
-            Download file <img src="./download.png" alt="download" style="margin-left: .2rem;" />
+            Download file
+            <img
+              src="./download.png"
+              alt="download"
+              style="margin-left: 0.2rem"
+            />
           </a>
-          </div>
+        </div>
         <p
           style="
             text-align: center;
@@ -312,12 +326,12 @@
             background-position: 50% 50%;
           "
         >
-         If you have any questions, contact Kreatesell at 
+          If you have any questions, contact Kreatesell at
           <a
             style="color: #0072ef; text-decoration: none"
             href="mailto:payment@kreatesell.com"
-            >payment@kreatesell.com</a
-          >
+            >payment@kreatesell.com
+          </a>
         </p>
         <div
           style="
@@ -332,8 +346,8 @@
             <a
               style="color: #0072ef; text-decoration: none"
               href="https://www.kreatesell.com/signup"
-              >Sign up here</a
-            >
+              >Sign up here
+            </a>
           </p>
           <p
             style="
@@ -394,7 +408,7 @@
               href="https://www.linkedin.com/in/kreate-sell-b1291121a/"
               ><img src="./linkedIn.svg" alt="linkedIn"
             /></a>
-             <a style="display: inline-block" href="https://wa.me/09016324945"
+            <a style="display: inline-block" href="https://wa.me/09016324945"
               ><img src="./whatsapp.svg" alt="WhatsApp"
             /></a>
           </div>
@@ -417,13 +431,12 @@
                 font-weight: bold;
                 margin-right: 0.2rem;
               "
-              >&copy;</span
-            >
-            <span id="year" style="margin-right: 0.2rem"></span> KreateSell. All
-            rights reserved
+              >&copy; <span style="margin-right: 0.2rem">2021</span> KreateSell.
+              All rights reserved
+            </span>
           </footer>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
   </body>
 </html>
