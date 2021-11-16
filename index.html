@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", sans-serif;
+      }
+
+      body {
+        background-color: ghostwhite;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem;
+      }
+      section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #fff;
+        margin: 5rem auto;
+        box-shadow: 1px 3px 5px grey;
+        max-width: 900px;
+        padding: 2rem 1rem;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        transition: all 0.2s;
+        width: 100%;
+        padding: 2rem;
+      }
+
+      .box a {
+        text-transform: capitalize;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.2s;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      h1 {
+        position: relative;
+        top: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Mail Notification Refactors</h1>
+      <section>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./Refactors/2-factor-authentication-email-REFACTOR.html"
+            >2 factor Auth page</a
+          >
+        </div>
+        <div class="box">
+          <a target="_blank" href="./Refactors/account-creation-REFACTOR.html">
+            account creation page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./Refactors/affliate-settlement-notification-REFACTOR.html"
+            >affliate settlement notification</a
+          >
+        </div>
+        <div class="box">
+          <a
+            href="./Refactors/buyer-has-abandoned-transaction-mail-firstPage-REFACTOR.html"
+            >buyer has abandoned transaction mail - first page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            href="./Refactors/buyer-has-abandoned-transaction-mail-secondPage-REFACTOR.html"
+            >buyer has abandoned transaction mail - second page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            href="./Refactors/buyer-has-abandoned-transaction-thirdPage-REFACTOR.html"
+            >buyer has abandoned transaction mail - third page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./Refactors/buyer-order-succesfulREFACTOR.html"
+            >buyer order successful mail page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./Refactors/kreator-sale-notification-mail-REFACTOR.html"
+            >kreator sale notification mail page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./Refactors/new-user-verification-REFACTOR.html"
+          >
+            new user verification
+          </a>
+        </div>
+        <div class="box">
+          <a target="_blank" href="./Refactors/payment-overdue.html"
+            >payment overdue mail</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./Refactors/user-password-reset-REFACTOR.html"
+          >
+            user password reset</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
