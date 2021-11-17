@@ -94,13 +94,13 @@
             style="padding: 0; margin: 0 auto; max-width: 600px"
           >
             <tr>
-              <td style="max-width: 900px; margin: 0 auto; padding: 1rem 2rem">
+              <td style="max-width: 600px; margin: 0 auto; padding: 1rem 2rem">
                 <h1
                   style="
                     text-transform: capitalize;
                     font-weight: bold;
                     color: #595959;
-                    max-width: 676px;
+                    max-width: 600px;
                     margin: 0 auto;
                     /* margin-top: 0.5rem;
                        margin-bottom: 0.5rem; */
@@ -115,7 +115,7 @@
             </tr>
             <tr width="100%">
               <td
-                style="max-width: 676px; margin: 0 auto; padding: 0.2rem 2rem"
+                style="max-width: 600px; margin: 0 auto; padding: 0.2rem 2rem"
               >
                 <p
                   style="
@@ -142,7 +142,7 @@
                     text-align: center;
                     width: 100%;
                     font-weight: 800;
-                    font-size: 40px;
+                    font-size: 22px;
                     margin: 3rem auto;
                   "
                 >
@@ -239,143 +239,142 @@
     <!-- end of table 5-->
     <!-- <table width="100%">
       
-    </table> -->
-    <tr width="100%">
-      <!-- start of table 6-->
-      <table
-        width="100%"
+    </table> OVER HERE -->
+
+    <table
+      width="100%"
+      style="
+        box-shadow: 0px 20px 200px rgba(34, 34, 34, 0.1);
+        border-radius: 8px;
+        padding: 5px 12px;
+        background: #ffffff;
+        width: 100%;
+        margin: 1rem 0.2rem;
+        margin-bottom: unset;
+        /* overflow: auto; */
+        margin: 1rem auto;
+        max-width: 600px;
+        width: 100%;
+        position: relative;
+        top: -150px;
+        /* background-color: yellow; */
+      "
+    >
+      <tr
         style="
-          box-shadow: 0px 20px 200px rgba(34, 34, 34, 0.1);
-          border-radius: 8px;
-          padding: 5px 12px;
-          background: #ffffff;
-          width: 100%;
-          margin: 1rem 0.2rem;
-          margin-bottom: unset;
-          /* overflow: auto; */
-          margin: 1rem auto;
-          max-width: 800px;
-          width: 100%;
-          position: relative;
-          top: -150px;
-          /* background-color: yellow; */
+          padding: 0.9rem 0.1rem;
+          border-bottom: 1px solid #f0f0f0;
+          text-transform: capitalize;
         "
       >
-        <tr
-          style="
-            padding: 0.9rem 0.1rem;
-            border-bottom: 1px solid #f0f0f0;
-            text-transform: capitalize;
-          "
-        >
-          <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
-            <p
-              style="
-                color: #8c8c8c;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 26px;
-                margin-right: 0.6rem;
-                text-align: center;
-              "
-            >
-              product name
-            </p>
-          </td>
-          <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
-            <p
-              style="
-                color: #595959;
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 28px;
-                text-align: center;
-              "
-            >
-              {{product_name}}
-            </p>
-          </td>
-        </tr>
-        <tr
-          style="
-            padding: 0.9rem 0.1rem;
-            border-bottom: 1px solid #f0f0f0;
-            text-transform: capitalize;
-          "
-        >
-          <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
-            <p
-              style="
-                color: #8c8c8c;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 26px;
-                margin-right: 0.6rem;
-                text-align: center;
-              "
-            >
-              Customer Name
-            </p>
-          </td>
-          <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
-            <p
-              style="
-                color: #595959;
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 28px;
-                text-align: center;
-              "
-            >
-              {{customer_name}}
-            </p>
-          </td>
-        </tr>
-        <tr style="padding: 0.9rem 0.1rem; text-transform: capitalize">
-          <td colspan="1">
-            <p
-              style="
-                color: #8c8c8c;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 26px;
-                margin-right: 0.6rem;
-                text-align: center;
-              "
-            >
-              Email Address
-            </p>
-          </td>
-          <td>
-            <p
-              style="
-                color: #595959;
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 28px;
-                text-align: center;
-                text-transform: lowercase;
-              "
-            >
-              {{customer_email}}
-            </p>
-          </td>
-        </tr>
-      </table>
-    </tr>
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
+            style="
+              color: #8c8c8c;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 26px;
+              margin-right: 0.6rem;
+              text-align: center;
+            "
+          >
+            product name
+          </p>
+        </td>
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
+            style="
+              color: #595959;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 28px;
+              text-align: center;
+            "
+          >
+            {{product_name}}
+          </p>
+        </td>
+      </tr>
+      <tr
+        style="
+          padding: 0.9rem 0.1rem;
+          border-bottom: 1px solid #f0f0f0;
+          text-transform: capitalize;
+        "
+      >
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
+            style="
+              color: #8c8c8c;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 26px;
+              margin-right: 0.6rem;
+              text-align: center;
+            "
+          >
+            Customer Name
+          </p>
+        </td>
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
+            style="
+              color: #595959;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 28px;
+              text-align: center;
+            "
+          >
+            {{customer_name}}
+          </p>
+        </td>
+      </tr>
+      <tr style="padding: 0.9rem 0.1rem; text-transform: capitalize">
+        <td colspan="1">
+          <p
+            style="
+              color: #8c8c8c;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 26px;
+              margin-right: 0.6rem;
+              text-align: center;
+            "
+          >
+            Email Address
+          </p>
+        </td>
+        <td>
+          <p
+            style="
+              color: #595959;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 28px;
+              text-align: center;
+              text-transform: lowercase;
+            "
+          >
+            {{customer_email}}
+          </p>
+        </td>
+      </tr>
+    </table>
 
     <!-- end of table -->
 
-    <table width="100%">
+    <table width="100%" align="center" style="max-width: 600px">
       <tr
         style="
           margin-bottom: 4rem;
           position: relative;
           top: -3rem;
+          max-width: 600px;
           /* text-align: center; */
         "
       >
-        <td align="middle" style="text-align: center">
+        <td style="text-align: center">
           <a
             style="
               background-color: #0072ef;
@@ -433,14 +432,16 @@
     </table>
     <table
       width="100%"
+      align="center"
       style="
         background-color: #e6f7ff;
         margin-top: 1rem;
         text-align: center;
         padding: 2rem 0.5rem 0.1rem;
+        max-width: 600px;
       "
     >
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <p style="font-size: 14px; line-height: 24px; color: #262626">
             Looking for where to showcase and sell your products?
@@ -452,23 +453,23 @@
           </p>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <p
             style="
               font-size: 14px;
               line-height: 24px;
               color: #262626;
-              max-width: 584px;
+              max-width: 600px;
               margin: 0.5rem auto 1rem;
             "
           >
-             Earn attractive commissions by promoting products as an affiliate.
+            Earn attractive commissions by promoting products as an affiliate.
             Click the button below to start earning now.
           </p>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <a
             style="
@@ -492,14 +493,14 @@
           </a>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <p style="font-size: 14px; line-height: 24px; color: #262626">
             Stay in touch
           </p>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <div
             style="
@@ -539,7 +540,7 @@
           </div>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <footer
             style="
