@@ -18,22 +18,18 @@
     <!-- start of main table -->
     <table
       width="100%"
-      border="0"
-      align="center"
       cellpadding="0"
       cellspacing="0"
-      style="padding: 0; margin: 0"
+      style="padding: 0; margin: 0 auto"
     >
       <!-- logo ROW -->
-      <tr>
+      <tr style="text-align: center" width="100%">
         <td
+          align="middle"
           style="
             background-color: #ffffff;
             min-height: 88px;
             text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             padding: 0.6rem 0;
             border-bottom: 1px solid #f0f0f0;
             width: 100%;
@@ -48,44 +44,13 @@
       </tr>
       <!-- END OF LOGO -->
       <!-- SECOND IMAGE STARTS HERE -->
-      <tr>
-        <td
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-          "
-        >
-          <!-- start of table2-->
-          <table
-            width="100%"
-            border="0"
-            align="center"
-            cellpadding="0"
-            cellspacing="0"
-            style="padding: 0; margin: 0"
-          >
-            <tr style="height: 100%; width: 100%; position: relative">
-              <td
-                style="
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  padding: 2rem;
-                  top: 80px;
-                  text-align: center;
-                "
-              >
-                <img
-                  style="width: 200px; height: 200px; margin-bottom: 2rem"
-                  src="https://res.cloudinary.com/salvoagency/image/upload/v1636216109/kreatesell/mailimages/verified_iqb18h.png"
-                  alt="verified"
-                />
-              </td>
-            </tr>
-          </table>
-          <!-- end of table 2-->
+      <tr style="height: 100%; width: 100%; position: relative" align="middle">
+        <td style="padding: 2rem; top: 80px; text-align: center">
+          <img
+            style="width: 200px; height: 200px; margin-bottom: 2rem"
+            src="https://res.cloudinary.com/salvoagency/image/upload/v1636216109/kreatesell/mailimages/verified_iqb18h.png"
+            alt="verified"
+          />
         </td>
       </tr>
       <!-- END OF SECOND IMAGE -->
@@ -165,7 +130,7 @@
                     text-align: center;
                     width: 100%;
                     font-weight: 800;
-                    font-size: 40px;
+                    font-size: 22px;
                     margin: 3rem auto;
                   "
                 >
@@ -184,35 +149,11 @@
           style="padding: 1rem; max-width: 600px; margin: 0 auto"
         >
           <!-- start of table 4-->
-          <table
-            style="
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              flex-direction: column;
-              width: 100%;
-            "
-          >
-            <tr
-              style="
-                text-align: center;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-              "
-            >
+          <table style="width: 100%">
+            <tr style="text-align: center; width: 100%">
               <!-- start of table 5-->
               <table width="100%" style="max-width: 600px; margin: 0 auto">
-                <tr
-                  style="
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    width: 100%;
-                  "
-                >
+                <tr style="width: 100%">
                   <td
                     style="
                       text-align: left;
@@ -240,36 +181,39 @@
                   </td>
                 </tr>
 
-                <tr style="position: relative" width="100%;">
-                  <td>
-                    <table width="100%">
-                      <tr
-                        width="100%"
-                        style="
-                          text-align: center;
-                          color: #8c8c8c;
-                          text-transform: capitalize;
-                          font-weight: 500;
-                          font-size: 16px;
-                          line-height: 24px;
-                          margin-top: 0.5rem;
-                        "
-                      >
-                        <td width="100%">payment method</td>
-                      </tr>
-                      <tr
-                        width="100%"
-                        style="
-                          text-align: center;
-                          color: #595959;
-                          font-size: 16px;
-                          line-height: 30px;
-                          font-weight: 700;
-                        "
-                      >
-                        <td width="100%">{{payment_method}}-{{last_four}}</td>
-                      </tr>
-                    </table>
+                <tr width="100%" style="text-align: center">
+                  <td
+                    colspan="2"
+                    style="margin: 0 auto; width: 100%"
+                    align="center"
+                  >
+                    <p
+                      style="
+                        position: relative;
+                        text-align: center;
+                        color: #8c8c8c;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                        font-size: 16px;
+                        width: 100%;
+                        line-height: 24px;
+                        margin: 0 auto;
+                        margin-top: 0.5rem;
+                      "
+                    >
+                      payment method
+                    </p>
+                    <p
+                      style="
+                        text-align: center;
+                        color: #595959;
+                        font-size: 16px;
+                        line-height: 30px;
+                        font-weight: 700;
+                      "
+                    >
+                      {{payment_method}}-{{last_four}}
+                    </p>
                   </td>
                 </tr>
               </table>
@@ -281,50 +225,50 @@
     <!-- end of table 5-->
     <!-- <table width="100%">
       
-    </table> -->
-    <tr width="100%">
-      <!-- start of table 6-->
-      <table
-        width="100%"
+    </table> OVER HERE -->
+
+    <table
+      width="100%"
+      style="
+        box-shadow: 0px 20px 200px rgba(34, 34, 34, 0.1);
+        border-radius: 8px;
+        padding: 5px 12px;
+        background: #ffffff;
+        width: 100%;
+        margin: 1rem 0.2rem;
+        margin-bottom: unset;
+        /* overflow: auto; */
+        margin: 1rem auto;
+        max-width: 600px;
+        width: 100%;
+        position: relative;
+        top: -150px;
+        /* background-color: yellow; */
+      "
+    >
+      <tr
         style="
-          box-shadow: 0px 20px 200px rgba(34, 34, 34, 0.1);
-          border-radius: 8px;
-          padding: 20px 12px;
-          background: #ffffff;
-          width: 100%;
-          margin: 1rem 0.2rem;
-          margin-bottom: unset;
-          overflow: auto;
-          margin: 1rem auto;
-          max-width: 800px;
-          width: 100%;
-          position: relative;
-          top: -150px;
-          /* background-color: yellow; */
+          padding: 0.9rem 0.1rem;
+          border-bottom: 1px solid #f0f0f0;
+          text-transform: capitalize;
         "
       >
-        <tr
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem 1rem;
-            border-bottom: 1px solid #f0f0f0;
-            text-transform: capitalize;
-          "
-        >
-          <td
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
             style="
               color: #8c8c8c;
               font-weight: 500;
               font-size: 16px;
               line-height: 26px;
               margin-right: 0.6rem;
+              text-align: center;
             "
           >
             product name
-          </td>
-          <td
+          </p>
+        </td>
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
             style="
               color: #595959;
               font-weight: 700;
@@ -334,30 +278,32 @@
             "
           >
             {{product_name}}
-          </td>
-        </tr>
-        <tr
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem 1rem;
-            border-bottom: 1px solid #f0f0f0;
-            text-transform: capitalize;
-          "
-        >
-          <td
+          </p>
+        </td>
+      </tr>
+      <tr
+        style="
+          padding: 0.9rem 0.1rem;
+          border-bottom: 1px solid #f0f0f0;
+          text-transform: capitalize;
+        "
+      >
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
             style="
               color: #8c8c8c;
               font-weight: 500;
               font-size: 16px;
               line-height: 26px;
               margin-right: 0.6rem;
+              text-align: center;
             "
           >
             Customer Name
-          </td>
-          <td
+          </p>
+        </td>
+        <td colspan="1" style="border-bottom: 1px solid #f0f0f0">
+          <p
             style="
               color: #595959;
               font-weight: 700;
@@ -367,56 +313,54 @@
             "
           >
             {{customer_name}}
-          </td>
-        </tr>
-        <tr
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem 1rem;
-            text-transform: capitalize;
-          "
-        >
-          <td
+          </p>
+        </td>
+      </tr>
+      <tr style="padding: 0.9rem 0.1rem; text-transform: capitalize">
+        <td colspan="1">
+          <p
             style="
               color: #8c8c8c;
               font-weight: 500;
               font-size: 16px;
               line-height: 26px;
               margin-right: 0.6rem;
+              text-align: center;
             "
           >
             Email Address
-          </td>
-          <td
+          </p>
+        </td>
+        <td>
+          <p
             style="
               color: #595959;
               font-weight: 700;
               font-size: 18px;
               line-height: 28px;
               text-align: center;
+              text-transform: lowercase;
             "
           >
             {{customer_email}}
-          </td>
-        </tr>
-      </table>
-    </tr>
+          </p>
+        </td>
+      </tr>
+    </table>
 
-    <!-- end of table 4-->
+    <!-- end of table -->
 
-    <table width="100%">
-      <tr style="margin-bottom: 4rem; position: relative; top: -3rem">
-        <td
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            text-align: center;
-          "
-        >
+    <table width="100%" align="center" style="max-width: 600px">
+      <tr
+        style="
+          margin-bottom: 4rem;
+          position: relative;
+          top: -3rem;
+          max-width: 600px;
+          /* text-align: center; */
+        "
+      >
+        <td style="text-align: center">
           <a
             style="
               background-color: #0072ef;
@@ -430,10 +374,10 @@
               font-weight: 700;
               /* margin: -16rem auto; */
               text-decoration: none;
-              text-align: center;
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
+              /* text-align: center;
+             
+              
+             
             "
             href="#"
           >
@@ -454,7 +398,7 @@
               font-size: 14px;
               line-height: 24px;
               /* margin-top: -7rem; */
-              padding: 2.3rem 0.8rem 0.2rem;
+              padding: 2.3rem 1rem 0.2rem;
               border-top: 2px solid #f0f0f0;
               background-image: url('https://res.cloudinary.com/salvoagency/image/upload/v1636216108/kreatesell/mailimages/bgImg_pylpxe.png');
               background-repeat: repeat;
@@ -473,14 +417,16 @@
     </table>
     <table
       width="100%"
+      align="center"
       style="
         background-color: #e6f7ff;
         margin-top: 1rem;
         text-align: center;
-        padding: 2rem 2rem 1rem;
+        padding: 2rem 0.5rem 0.1rem;
+        max-width: 600px;
       "
     >
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <p style="font-size: 14px; line-height: 24px; color: #262626">
             Looking for where to showcase and sell your products?
@@ -492,14 +438,14 @@
           </p>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <p
             style="
               font-size: 14px;
               line-height: 24px;
               color: #262626;
-              max-width: 584px;
+              max-width: 600px;
               margin: 0.5rem auto 1rem;
             "
           >
@@ -508,7 +454,7 @@
           </p>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <a
             style="
@@ -532,54 +478,46 @@
           </a>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <p style="font-size: 14px; line-height: 24px; color: #262626">
             Stay in touch
           </p>
         </td>
       </tr>
-      <tr>
-        <td>
-          <div
-            style="
-              padding: 1rem;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <!-- <a href="/"> <img src="./instagram.svg" alt="instagram" /></a> -->
-            <a
-              style="display: inline-block; margin-right: 0.2rem"
-              href="https://www.facebook.com/Kreatesell-100977575650709"
-              ><img
-                src="https://res.cloudinary.com/salvoagency/image/upload/v1636216108/kreatesell/mailimages/facebook_s9zvjw.svg"
-                alt="facebook"
-            /></a>
-            <a
-              style="display: inline-block; margin-right: 0.2rem"
-              href="https://twitter.com/KreateSell"
-              ><img
-                src="https://res.cloudinary.com/salvoagency/image/upload/v1636216109/kreatesell/mailimages/Twitter_jwuazj.svg"
-                alt="twitter"
-            /></a>
-            <a
-              style="display: inline-block; margin-right: 0.2rem"
-              href="https://www.linkedin.com/in/kreate-sell-b1291121a/"
-              ><img
-                src="https://res.cloudinary.com/salvoagency/image/upload/v1636216110/kreatesell/mailimages/linkedIn_g0dj8v.svg"
-                alt="linkedIn"
-            /></a>
-            <a style="display: inline-block" href="https://wa.me/09016324945"
-              ><img
-                src="https://res.cloudinary.com/salvoagency/image/upload/v1636216109/kreatesell/mailimages/whatsapp_g6cdvd.svg"
-                alt="WhatsApp"
-            /></a>
-          </div>
+      <tr
+        style="max-width: 600px; background-color: #e6f7ff; text-align: center"
+      >
+        <td style="padding: 1rem; text-align: center">
+          <a
+            style="display: inline-block; margin-right: 0.2rem"
+            href="https://www.facebook.com/Kreatesell-100977575650709"
+            ><img
+              src="https://res.cloudinary.com/salvoagency/image/upload/v1636216108/kreatesell/mailimages/facebook_s9zvjw.svg"
+              alt="facebook"
+          /></a>
+          <a
+            style="display: inline-block; margin-right: 0.2rem"
+            href="https://twitter.com/KreateSell"
+            ><img
+              src="https://res.cloudinary.com/salvoagency/image/upload/v1636216109/kreatesell/mailimages/Twitter_jwuazj.svg"
+              alt="twitter"
+          /></a>
+          <a
+            style="display: inline-block; margin-right: 0.2rem"
+            href="https://www.linkedin.com/in/kreate-sell-b1291121a/"
+            ><img
+              src="https://res.cloudinary.com/salvoagency/image/upload/v1636216110/kreatesell/mailimages/linkedIn_g0dj8v.svg"
+              alt="linkedIn"
+          /></a>
+          <a style="display: inline-block" href="https://wa.me/09016324945"
+            ><img
+              src="https://res.cloudinary.com/salvoagency/image/upload/v1636216109/kreatesell/mailimages/whatsapp_g6cdvd.svg"
+              alt="WhatsApp"
+          /></a>
         </td>
       </tr>
-      <tr>
+      <tr style="max-width: 600px; background-color: #e6f7ff">
         <td>
           <footer
             style="
@@ -588,9 +526,6 @@
               line-height: 18px;
               text-align: center;
               margin-top: 1rem;
-              display: flex;
-              justify-content: center;
-              align-items: center;
             "
           >
             <span
