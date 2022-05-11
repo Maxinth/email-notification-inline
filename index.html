@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", sans-serif;
+      }
+
+      body {
+        background-color: ghostwhite;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem;
+      }
+      section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #fff;
+        margin: 5rem auto;
+        box-shadow: 1px 3px 5px grey;
+        max-width: 900px;
+        padding: 2rem 1rem;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        transition: all 0.2s;
+        width: 100%;
+        padding: 2rem;
+      }
+
+      .box a {
+        text-transform: capitalize;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.2s;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      h1 {
+        position: relative;
+        top: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Mail Notifications</h1>
+      <section>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/2-factor-authentication-email.html"
+            >2 factor Auth page</a
+          >
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/account-creation.html">
+            account creation page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/affiliate-approved-by-creator-email.html"
+            >affiliate approved by kreator</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/affliate-settlement-notification.html"
+            >affliate settlement notification</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/buyer-has-abandoned-transaction-mail-firstPage.html"
+            >buyer has abandoned transaction mail - first page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/buyer-has-abandoned-transaction-mail-secondPage.html"
+            >buyer has abandoned transaction mail - second page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/buyer-has-abandoned-transaction-thirdPage.html"
+            >buyer has abandoned transaction mail - third page</a
+          >
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/buyer-order-succesful.html"
+            >buyer order successful mail page</a
+          >
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/kreator-sale-notification-mail.html"
+            >kreator sale notification mail page</a
+          >
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/new-user-verification.html">
+            new user verification
+          </a>
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/payment-overdue.html"
+            >payment overdue mail</a
+          >
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/user-password-reset.html">
+            user password reset</a
+          >
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/now-an-affiliate-mail.html">
+            now an affiliate
+          </a>
+        </div>
+        <div class="box">
+          <a target="_blank" href="./templates/wait-list-email.html">
+            wait list mail
+          </a>
+        </div>
+        <div class="box">
+          <a
+            target="_blank"
+            href="./templates/soap-opera-onboarding-mails/welcome-mail.html"
+          >
+            welcome
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
